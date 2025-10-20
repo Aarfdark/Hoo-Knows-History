@@ -4,9 +4,9 @@
     "com.ptc.vuforia.engine": {
       "tarball": {
         "hash": "58134fb7b42201fcde4d9f3b47982aa2",
-        "mtime": 1756904913000,
+        "mtime": 1760920461404,
         "size": 138293552,
-        "localPath": "C:\\CS Capstone\\AR Test\\AR-Test\\Packages\\com.ptc.vuforia.engine-11.4.4.tgz"
+        "localPath": "D:\\Github\\capstone-blue-9\\Packages\\com.ptc.vuforia.engine-11.4.4.tgz"
       }
     }
   }
