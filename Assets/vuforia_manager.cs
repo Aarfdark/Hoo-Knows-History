@@ -10,7 +10,7 @@ public class VuforiaManager : MonoBehaviour
     void Start()
     {
         // Start Vuforia camera
-        VuforiaBehaviour.Instance.enabled = true;
+        //VuforiaBehaviour.Instance.enabled = true;
 
         // Set up back button
         backButton.onClick.AddListener(ReturnToMenu);
@@ -23,8 +23,8 @@ public class VuforiaManager : MonoBehaviour
     public void ReturnToMenu()
     {
         // Stop and cleanup Vuforia camera
-        CameraDevice.Instance.Stop();
-        CameraDevice.Instance.Deinit();
+        //CameraDevice.Instance.Stop();
+        //CameraDevice.Instance.Deinit();
 
         // Load menu scene
         SceneManager.LoadScene("MainMenu");
@@ -32,14 +32,14 @@ public class VuforiaManager : MonoBehaviour
 
     void OnApplicationPause(bool pause)
     {
-        // Pause camera when app goes to background
-        if (pause)
-        {
-            CameraDevice.Instance.Stop();
-        }
-        else
-        {
-            CameraDevice.Instance.Start();
-        }
+        //// Pause camera when app goes to background
+        //if (pause)
+        //{
+        //    CameraDevice.Instance.Stop();
+        //}
+        //else
+        //{
+        //    CameraDevice.Instance.Start();
+        //}
     }
 }
