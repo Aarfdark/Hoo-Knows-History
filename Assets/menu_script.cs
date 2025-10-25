@@ -14,6 +14,7 @@ public class MenuManager : MonoBehaviour
 
     void StartAR()
     {
+        Debug.Log("Start AR button clicked");
         SceneManager.LoadScene("ARScene");
     }
 }
