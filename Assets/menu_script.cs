@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     public Button startARButton;
+    public Button settingsButton;
 
     void Start()
     {
