@@ -3,20 +3,35 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Vuforia;
 
+
+using UnityEngine;
+using UnityEngine.UI;
+
 public class VuforiaManager : MonoBehaviour
 {
     public Button backButton;
+    public GameObject arContent;
 
     void Start()
     {
-        // Start Vuforia camera
-        //VuforiaBehaviour.Instance.enabled = true;
+        // Hook up the button click
+        backButton.onClick.AddListener(ToggleAR);
+    }
 
-        // Set up back button
-        backButton.onClick.AddListener(ReturnToMenu);
-
-        // iOS handles camera permissions automatically
-        // The first time, iOS will show a permission dialog
+    public void ToggleAR()
+    {
+        Debug.Log("button clicked");
+        if (arContent != null)
+        {
+            Debug.Log("object is not null, turning off");
+            arContent.SetActive(!arContent.activeSelf);
+        }
+        else
+        {
+            Debug.Log("object is  null, turning on");
+            Debug.LogWarning("arContent not assigned in the Inspector!");
+            arContent.SetActive(!arContent.activeSelf);
+        }
     }
 
     // Call this when you want to go back to menu
