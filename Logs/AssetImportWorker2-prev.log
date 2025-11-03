@@ -1,0 +1,461 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.35f1 (9a3bc604008a) revision 10107846'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 7991 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/loral/Documents/source/repos/capstone-blue-9
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61226
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/loral/Documents/source/repos/capstone-blue-9
+C:/Users/loral/Documents/source/repos/capstone-blue-9
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13268]  Target information:
+
+Player connection [13268]  * "[IP] 172.25.170.34 [Port] 0 [Flags] 2 [Guid] 3836113831 [EditorId] 3836113831 [Version] 1048832 [Id] WindowsEditor(7,TINY_BUT_MIGHTY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13268] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 10.20 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 11.70 ms.
+Initialize engine version: 6000.0.35f1 (9a3bc604008a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/loral/Documents/source/repos/capstone-blue-9/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3995 MB
+    Driver:   30.0.101.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010228 seconds.
+- Loaded All Assemblies, in  0.775 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 1458ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (247ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (687ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.260 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.058 seconds
+Domain Reload Profiling: 2310ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (823ms)
+		LoadAssemblies (666ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (245ms)
+			BuildScriptInfoCaches (52ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1059ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (866ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (643ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+database is locked
+Failed to delete database file Library/ShaderCache.db
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.71 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3878 unused Assets / (1.9 MB). Loaded Objects now: 4495.
+Memory consumption went from 100.3 MB to 98.4 MB.
+Total: 10.832300 ms (FindLiveObjects: 1.379300 ms CreateObjectMapping: 0.677600 ms MarkObjects: 6.056800 ms  DeleteObjects: 2.714700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 268946.034974 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_notifications_on_lines.png
+  artifactKey: Guid(f72ac1949b9af844ebf0211d53abe3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_notifications_on_lines.png using Guid(f72ac1949b9af844ebf0211d53abe3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc7944f555f05a212c3543c6efb1313e') in 0.1459274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141468 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Border/ic_notifications_off.png
+  artifactKey: Guid(12f5e55bae449634db92c215226550b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Border/ic_notifications_off.png using Guid(12f5e55bae449634db92c215226550b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd904fdd38f788e9b5ee620af5ed09e6e') in 0.0378911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054913 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_music_on_lines.png
+  artifactKey: Guid(7310f09ec5afd774e8c8c177dc16db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_music_on_lines.png using Guid(7310f09ec5afd774e8c8c177dc16db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c27d6e52dc1a7f72f01ff0a13338511e') in 0.029729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474092 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_music_off_lines.png
+  artifactKey: Guid(3cbcc0c5239403642affeb5af5928421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_music_off_lines.png using Guid(3cbcc0c5239403642affeb5af5928421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbbc03c99001127f5dfa69e6a27bf7b4') in 0.0418547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188671 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_minus_lines.png
+  artifactKey: Guid(52f0262ac1d631b458c9e3af4edb0714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_minus_lines.png using Guid(52f0262ac1d631b458c9e3af4edb0714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa62a74312879371e9a55797e8f39708') in 0.0343264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058481 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_map_lines.png
+  artifactKey: Guid(6513ba7dffef37043ae06cd99eab922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_map_lines.png using Guid(6513ba7dffef37043ae06cd99eab922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00769aad598db3182156d84ae02c6bfa') in 0.0425085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.294403 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_magnet_lines.png
+  artifactKey: Guid(61d59919d8849f54f8936e18a22e6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_magnet_lines.png using Guid(61d59919d8849f54f8936e18a22e6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2853742e8c6f7123b4b86b576e3fd6e') in 0.0354012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001998 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_love_lines.png
+  artifactKey: Guid(3dab3171727647d4f864ba5880f94651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_love_lines.png using Guid(3dab3171727647d4f864ba5880f94651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5494382424b29c139db0cda3b2cf7a84') in 0.0322856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042136 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_locked_lines.png
+  artifactKey: Guid(fd3c0272e26edc543948e60e0d288e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_locked_lines.png using Guid(fd3c0272e26edc543948e60e0d288e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f6f26b9658ae49b3123fa8208707eaa') in 0.0348481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Filled/ic_locked_fill.png
+  artifactKey: Guid(15626114d991136439fc84eb1f9d2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Filled/ic_locked_fill.png using Guid(15626114d991136439fc84eb1f9d2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92a26a2ac8bb5ae3691f5b0c8374420') in 0.0371312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.403080 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_leaderboards_lines.png
+  artifactKey: Guid(8ba76234a3b2e3d479ca4e9e30c793a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_leaderboards_lines.png using Guid(8ba76234a3b2e3d479ca4e9e30c793a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e49c85d21ef3166a475eed29bf2cd83') in 0.0342694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002606 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_inbox_lines.png
+  artifactKey: Guid(d515347dafc07a444a6a5236fa6ad50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_inbox_lines.png using Guid(d515347dafc07a444a6a5236fa6ad50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6dead5a9cb6475116fec9b1ef1eaf06') in 0.0368283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025806 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_home_lines.png
+  artifactKey: Guid(56c4b5043559ed645a4bf2858716d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_home_lines.png using Guid(56c4b5043559ed645a4bf2858716d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0d30a97508c58644d27ce8de771e663') in 0.0360834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.555152 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_fuel_lines.png
+  artifactKey: Guid(f193ed09f6f931849a3c01e0936f056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_fuel_lines.png using Guid(f193ed09f6f931849a3c01e0936f056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edf7167162094be801cc84b6b2f0fdd8') in 0.0376297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104949 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_energy_lines.png
+  artifactKey: Guid(97fcad6585207d84c9c7708790735e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_energy_lines.png using Guid(97fcad6585207d84c9c7708790735e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a96923388215ad2b63e0a4466b94c76') in 0.0324286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.293967 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_cursor_lines.png
+  artifactKey: Guid(93d44f94b151ef74e97262d278fdd901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_cursor_lines.png using Guid(93d44f94b151ef74e97262d278fdd901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef3764abae63f11b77c2369ec7e41ee8') in 0.0395842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174147 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_cup_lines.png
+  artifactKey: Guid(db185c05ffc39b841ab360b29ffe4135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_cup_lines.png using Guid(db185c05ffc39b841ab360b29ffe4135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e64a78611a3f008af2c3fa9b9bcf8650') in 0.0385807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134233 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_close_lines.png
+  artifactKey: Guid(a3d0d2d37121e274d87a86f834197299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_close_lines.png using Guid(a3d0d2d37121e274d87a86f834197299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30dfe0a62acc45f97360dc3d6bc68a7') in 0.0342268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.386623 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_backpack_lines.png
+  artifactKey: Guid(530af13a7706e0b41b829ef624438332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_backpack_lines.png using Guid(530af13a7706e0b41b829ef624438332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3be3ea48d7ad1f5708a56663419b6a9e') in 0.0365888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003572 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_announcement_lines.png
+  artifactKey: Guid(290cc9e59bdcc18499725e2b24b6c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_announcement_lines.png using Guid(290cc9e59bdcc18499725e2b24b6c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61a14286fe86caa5817f864291d8f544') in 0.0336908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331517 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_achievements_lines.png
+  artifactKey: Guid(eafab5668d1d8da46b04c59dc0900391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Line/ic_achievements_lines.png using Guid(eafab5668d1d8da46b04c59dc0900391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4964c84077dfa1a756604a60343724d3') in 0.0392665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.123879 seconds.
+  path: Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Border/ic_achievements.png
+  artifactKey: Guid(092a1829405f08b44b97ce35fe696b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardArtcore/UI/SimpleIcons/Sprites/Icons/Border/ic_achievements.png using Guid(092a1829405f08b44b97ce35fe696b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73bb8a2e98f045f05b9c8f5c1b04f192') in 0.0371057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.951 seconds
+Refreshing native plugins compatible for Editor in 4.87 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.759 seconds
+Domain Reload Profiling: 1709ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.73 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3876 unused Assets / (1.0 MB). Loaded Objects now: 4504.
+Memory consumption went from 93.4 MB to 92.4 MB.
+Total: 6.112000 ms (FindLiveObjects: 0.767100 ms CreateObjectMapping: 0.306800 ms MarkObjects: 3.929000 ms  DeleteObjects: 1.107500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.786 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 1406ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.03 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3876 unused Assets / (1.0 MB). Loaded Objects now: 4504.
+Memory consumption went from 93.3 MB to 92.3 MB.
+Total: 5.728900 ms (FindLiveObjects: 0.439800 ms CreateObjectMapping: 0.325800 ms MarkObjects: 3.988200 ms  DeleteObjects: 0.973100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
