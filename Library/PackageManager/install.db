@@ -4,9 +4,9 @@
     "com.ptc.vuforia.engine": {
       "tarball": {
         "hash": "58134fb7b42201fcde4d9f3b47982aa2",
-        "mtime": 1761157296279,
+        "mtime": 1761585462448,
         "size": 138293552,
-        "localPath": "/Users/rythamachevendra/Documents/GitHub/capstone-blue-9/Packages/com.ptc.vuforia.engine-11.4.4.tgz"
+        "localPath": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Packages\\com.ptc.vuforia.engine-11.4.4.tgz"
       }
     }
   }
