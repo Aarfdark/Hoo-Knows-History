@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61044
+59041
 -job-worker-count
 3
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/rythamachevendra/Documents/GitHub/c
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704597094272]  Target information:
+Player connection [140704489594752]  Target information:
 
-Player connection [140704597094272]  * "[IP] 192.168.1.41 [Port] 0 [Flags] 2 [Guid] 1741744720 [EditorId] 1741744720 [Version] 1048832 [Id] OSXEditor(0,MacBookAir.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [140704489594752]  * "[IP] 172.25.146.164 [Port] 0 [Flags] 2 [Guid] 770312091 [EditorId] 770312091 [Version] 1048832 [Id] OSXEditor(0,Rythamas-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [140704597094272] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704597094272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704489594752] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704489594752] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -83,8 +83,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 35.02 ms, found 6 plugins.
-Preloading 4 native plugins for Editor in 546.10 ms.
+Refreshing native plugins compatible for Editor in 37.09 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 385.10 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/rythamachevendra/Documents/GitHub/capstone-blue-9/Assets
@@ -98,56 +98,56 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56862
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56791
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.020963 seconds.
-- Loaded All Assemblies, in  2.016 seconds
+Registered in 0.026591 seconds.
+- Loaded All Assemblies, in  2.915 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
-objc[9862]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/iOSSupport/x64/UnityEditor.iOS.Native.dylib (0x162b835f8) and /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/VisionOSPlayer/x64/UnityEditor.VisionOS.Native.dylib (0x162c925f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[7791]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/iOSSupport/x64/UnityEditor.iOS.Native.dylib (0x15f7645f8) and /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/VisionOSPlayer/x64/UnityEditor.VisionOS.Native.dylib (0x15f7e45f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for VisionOS target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.418 seconds
-Domain Reload Profiling: 4436ms
-	BeginReloadAssembly (770ms)
+- Finished resetting the current domain, in  3.106 seconds
+Domain Reload Profiling: 6021ms
+	BeginReloadAssembly (1036ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (5ms)
-	RebuildCommonClasses (131ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (231ms)
-	LoadAllAssembliesAndSetupDomain (844ms)
-		LoadAssemblies (768ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (301ms)
+	RebuildNativeTypeToScriptingClass (91ms)
+	initialDomainReloadingComplete (434ms)
+	LoadAllAssembliesAndSetupDomain (1052ms)
+		LoadAssemblies (1036ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (827ms)
-			TypeCache.Refresh (817ms)
-				TypeCache.ScanAssembly (753ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2420ms)
+		AnalyzeDomain (1021ms)
+			TypeCache.Refresh (1012ms)
+				TypeCache.ScanAssembly (932ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (3108ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2223ms)
+		SetupLoadedEditorAssemblies (2852ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (744ms)
-			SetLoadedEditorAssemblies (25ms)
-			BeforeProcessingInitializeOnLoad (304ms)
-			ProcessInitializeOnLoadAttributes (812ms)
-			ProcessInitializeOnLoadMethodAttributes (337ms)
+			InitializePlatformSupportModulesInManaged (900ms)
+			SetLoadedEditorAssemblies (29ms)
+			BeforeProcessingInitializeOnLoad (405ms)
+			ProcessInitializeOnLoadAttributes (1198ms)
+			ProcessInitializeOnLoadMethodAttributes (318ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -155,161 +155,55 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.880 seconds
-Refreshing native plugins compatible for Editor in 23.94 ms, found 6 plugins.
+- Loaded All Assemblies, in  6.040 seconds
+Refreshing native plugins compatible for Editor in 9.42 ms, found 6 plugins.
 Native extension for iOS target not found
 Native extension for VisionOS target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.298 seconds
-Domain Reload Profiling: 7161ms
-	BeginReloadAssembly (800ms)
+- Finished resetting the current domain, in  4.246 seconds
+Domain Reload Profiling: 10263ms
+	BeginReloadAssembly (1015ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (37ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (223ms)
-	RebuildCommonClasses (198ms)
-	RebuildNativeTypeToScriptingClass (65ms)
-	initialDomainReloadingComplete (185ms)
-	LoadAllAssembliesAndSetupDomain (2613ms)
-		LoadAssemblies (1950ms)
+		CreateAndSetChildDomain (250ms)
+	RebuildCommonClasses (251ms)
+	RebuildNativeTypeToScriptingClass (84ms)
+	initialDomainReloadingComplete (227ms)
+	LoadAllAssembliesAndSetupDomain (4439ms)
+		LoadAssemblies (3289ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1091ms)
-			TypeCache.Refresh (907ms)
-				TypeCache.ScanAssembly (830ms)
-			BuildScriptInfoCaches (136ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (3300ms)
+		AnalyzeDomain (1691ms)
+			TypeCache.Refresh (1452ms)
+				TypeCache.ScanAssembly (1256ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (53ms)
+	FinalizeReload (4247ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2704ms)
+		SetupLoadedEditorAssemblies (3419ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (142ms)
-			SetLoadedEditorAssemblies (20ms)
-			BeforeProcessingInitializeOnLoad (453ms)
-			ProcessInitializeOnLoadAttributes (1950ms)
-			ProcessInitializeOnLoadMethodAttributes (134ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (173ms)
+			SetLoadedEditorAssemblies (28ms)
+			BeforeProcessingInitializeOnLoad (1209ms)
+			ProcessInitializeOnLoadAttributes (1856ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.29 seconds
-Refreshing native plugins compatible for Editor in 3.49 ms, found 6 plugins.
-Preloading 4 native plugins for Editor in 26.59 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.95 seconds
+Refreshing native plugins compatible for Editor in 8.35 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 42.40 ms.
 Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 3882 unused Assets / (1.0 MB). Loaded Objects now: 4509.
-Memory consumption went from 106.7 MB to 105.7 MB.
-Total: 28.537084 ms (FindLiveObjects: 1.673378 ms CreateObjectMapping: 1.142287 ms MarkObjects: 17.154356 ms  DeleteObjects: 8.563686 ms)
+Memory consumption went from 106.8 MB to 105.9 MB.
+Total: 57.390109 ms (FindLiveObjects: 17.769754 ms CreateObjectMapping: 1.367632 ms MarkObjects: 28.669935 ms  DeleteObjects: 9.578996 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 32608.492614 seconds.
-  path: Assets/Scenes/ARScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '241f9fbc206c1e6dc34e65c4618478ea') in 0.034437515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.809 seconds
-Refreshing native plugins compatible for Editor in 2.69 ms, found 6 plugins.
-Native extension for iOS target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.897 seconds
-Domain Reload Profiling: 3727ms
-	BeginReloadAssembly (640ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (333ms)
-	RebuildCommonClasses (110ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (972ms)
-		LoadAssemblies (745ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (432ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (390ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1915ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1575ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (76ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (231ms)
-			ProcessInitializeOnLoadAttributes (1196ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 6.90 ms, found 6 plugins.
-Preloading 4 native plugins for Editor in 45.10 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3880 unused Assets / (1.2 MB). Loaded Objects now: 4512.
-Memory consumption went from 101.2 MB to 100.0 MB.
-Total: 19.998622 ms (FindLiveObjects: 0.805022 ms CreateObjectMapping: 1.056585 ms MarkObjects: 13.919516 ms  DeleteObjects: 4.213735 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.799 seconds
-Refreshing native plugins compatible for Editor in 2.64 ms, found 6 plugins.
-Native extension for iOS target not found
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.388 seconds
-Domain Reload Profiling: 5196ms
-	BeginReloadAssembly (890ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (32ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (406ms)
-	RebuildCommonClasses (101ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (112ms)
-	LoadAllAssembliesAndSetupDomain (1672ms)
-		LoadAssemblies (1201ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (805ms)
-			TypeCache.Refresh (42ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (711ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2390ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2043ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (83ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (276ms)
-			ProcessInitializeOnLoadAttributes (1525ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 5.29 ms, found 6 plugins.
-Preloading 4 native plugins for Editor in 26.82 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3880 unused Assets / (1.7 MB). Loaded Objects now: 4512.
-Memory consumption went from 103.7 MB to 102.0 MB.
-Total: 25.177570 ms (FindLiveObjects: 1.604307 ms CreateObjectMapping: 1.414386 ms MarkObjects: 17.177041 ms  DeleteObjects: 4.978100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
