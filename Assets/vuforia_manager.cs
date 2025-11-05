@@ -4,11 +4,15 @@ using UnityEngine.UI;
 
 public class VuforiaManager : MonoBehaviour
 {
-    public Button backButton;
+    public Button toggleButton;
 
     void Start()
     {
-        backButton.onClick.AddListener(ToggleAR);
+        toggleButton.onClick.AddListener(ToggleAR);
+    }
+    
+    public void GoToHome(){
+        SceneManager.LoadScene("MenuScene");
     }
 
     public void ToggleAR()
@@ -24,8 +28,4 @@ public class VuforiaManager : MonoBehaviour
         }
     }
 
-    public void ReturnToMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
 }

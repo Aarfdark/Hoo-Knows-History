@@ -26,6 +26,10 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    public void GotToARScene(){
+        SceneManager.LoadScene("ARScene");
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
