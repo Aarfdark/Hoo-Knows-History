@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="black" size="1.000000 1.294498" />
+    <ImageTarget name="lightblue" size="1.000000 1.294498" />
+    <ImageTarget name="orange" size="1.000000 1.294498" />
+    <ImageTarget name="darkblue" size="1.000000 1.294498" />
+  </Tracking>
+</QCARConfig>
