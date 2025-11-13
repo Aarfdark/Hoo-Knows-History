@@ -6,6 +6,9 @@ public class MenuManager : MonoBehaviour
 {
     public Button startARButton;
     public GameObject arContent; // You need this defined!
+    public Button aboutUsButton;
+    public Button tutorialButton;
+    public Button backButton;
 
     void Start()
     {
@@ -30,6 +33,17 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("ARScene");
     }
 
+    public void GoToAboutScene(){
+        SceneManager.LoadScene("AboutUsScene");
+    }
+
+    public void GoToTutorialScene(){
+        SceneManager.LoadScene("AboutUsScene");
+    }
+
+    public void GoToHomeScene(){
+        SceneManager.LoadScene("MenuScene");
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
