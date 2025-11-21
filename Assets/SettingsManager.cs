@@ -7,29 +7,38 @@ public class SettingsManager : MonoBehaviour
     public Slider volumeSlider;
     public CanvasGroup volumeGroup;
 
+    void Awake()
+    {
+        // Force slider to 100% BEFORE Unity loads UI state
+        if (volumeSlider != null)
+            volumeSlider.value = 1f;
+    }
+
     void Start()
     {
-        // default values at scene start
-        narrationToggle.isOn = true;    
-        volumeSlider.value = 1f;        
+        // Default toggle state
+        narrationToggle.isOn = true;
 
+        // Ensure slider is correct at scene start
+        volumeSlider.value = 1f;
+
+        // Apply initial UI lock/unlock + fades
         UpdateVolumeState(narrationToggle.isOn);
 
+        // React to user toggling narration ON/OFF
         narrationToggle.onValueChanged.AddListener(UpdateVolumeState);
     }
 
     void UpdateVolumeState(bool enabled)
     {
-        // When turning narration ON, reset slider to 100%
+        // If narration is turned ON, place slider back at 100%
         if (enabled)
-        {
-            volumeSlider.value = 1f;  
-        }
+            volumeSlider.value = 1f;
 
-        // Lock/unlock slider
+        // Enable or disable slider interactivity
         volumeSlider.interactable = enabled;
 
-        // Fade the volume block
+        // Fade volume block + disable raycasts when OFF
         volumeGroup.alpha = enabled ? 1f : 0.3f;
         volumeGroup.interactable = enabled;
         volumeGroup.blocksRaycasts = enabled;
