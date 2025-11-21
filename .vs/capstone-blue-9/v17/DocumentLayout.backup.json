@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\menu_script.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\menu_script.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\menu_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\menu_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\vuforia_manager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\vuforia_manager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "menu_script.cs",
-              "DocumentMoniker": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\menu_script.cs",
-              "RelativeDocumentMoniker": "Assets\\menu_script.cs",
-              "ToolTip": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\menu_script.cs",
-              "RelativeToolTip": "Assets\\menu_script.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T23:00:02.954Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "menu_script.cs",
-              "DocumentMoniker": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\menu_script.cs",
-              "RelativeDocumentMoniker": "Assets\\menu_script.cs",
-              "ToolTip": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\menu_script.cs",
-              "RelativeToolTip": "Assets\\menu_script.cs",
+              "DocumentIndex": 0,
+              "Title": "vuforia_manager.cs",
+              "DocumentMoniker": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\vuforia_manager.cs",
+              "RelativeDocumentMoniker": "Assets\\vuforia_manager.cs",
+              "ToolTip": "C:\\Users\\loral\\Documents\\source\\repos\\capstone-blue-9\\Assets\\vuforia_manager.cs",
+              "RelativeToolTip": "Assets\\vuforia_manager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T01:36:51.005Z"
+              "WhenOpened": "2025-11-17T21:33:50.781Z",
+              "EditorCaption": ""
             }
           ]
         }
