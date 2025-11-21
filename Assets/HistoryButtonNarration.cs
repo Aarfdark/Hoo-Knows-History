@@ -1,41 +1,37 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class HistoryButtonNarration : MonoBehaviour
 {
     public AudioSource audioSource;
-    public ImageTargetDetector detector;
+    public AudioClip introClip;                // Audio 1
+    public TargetNarration targetNarration;    // Reference to detection script
 
-    public AudioClip introClip;      // 01
-    public AudioClip[] darkBlueClips; // 02-04
-
-    void Start()
+    public void PlayNarration()
     {
-        GetComponent<Button>().onClick.AddListener(PlayNarration);
-    }
+        // 1. Check narration enabled
+        if (!SettingsManager.narrationEnabled)
+        {
+            Debug.Log("Narration OFF – no audio played.");
+            return;
+        }
 
-    void PlayNarration()
-    {
+        // 2. Apply global volume
+        audioSource.volume = SettingsManager.narrationVolume;
+
+        // 3. Stop any currently playing audio
         audioSource.Stop();
 
-        if (detector.isDetected)
+        // 4. If target detected → play dark blue sequence
+        if (targetNarration != null && targetNarration.targetVisible)
         {
-            StartCoroutine(PlaySequence());
+            Debug.Log("DarkBlue detected → playing clips 2–4");
+            targetNarration.PlayDarkBlueSequence();
+            return;
         }
-        else
-        {
-            audioSource.clip = introClip;
-            audioSource.Play();
-        }
-    }
 
-    System.Collections.IEnumerator PlaySequence()
-    {
-        foreach (var clip in darkBlueClips)
-        {
-            audioSource.clip = clip;
-            audioSource.Play();
-            yield return new WaitForSeconds(clip.length);
-        }
+        // 5. Otherwise → play intro narration
+        Debug.Log("No target detected → playing intro narration");
+        audioSource.clip = introClip;
+        audioSource.Play();
     }
 }
