@@ -10,6 +10,8 @@ public class MenuManager : MonoBehaviour
     public Button tutorialButton;
     public Button backButton;
 
+    public Button settingsButton;
+
     void Start()
     {
         // Make sure to use onClick.AddListener, not addEventListener
@@ -53,6 +55,13 @@ public class MenuManager : MonoBehaviour
     void StartAR()
     {
         Debug.Log("hello!");
+        SceneManager.LoadScene("ARScene");
+    }
+
+    public void LoadARSettings()
+    {
+        // Store a flag so ARScene knows to open settings immediately
+        PlayerPrefs.SetInt("openSettings", 1);
         SceneManager.LoadScene("ARScene");
     }
 }
