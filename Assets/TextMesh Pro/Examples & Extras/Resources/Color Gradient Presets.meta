@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
 guid: 7f422cd1388b01047a58cd07c7a23d9d
+========
+guid: a7eaeb4188c60454faf0a41c253b505c
+>>>>>>>> main:Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

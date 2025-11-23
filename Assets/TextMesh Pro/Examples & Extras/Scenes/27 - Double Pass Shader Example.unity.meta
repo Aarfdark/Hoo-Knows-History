@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity.meta
 guid: 3b38a6ba32b869f48812e595baf39746
+========
+guid: eea2b7206368b444e84fbec4ec32b64a
+>>>>>>>> main:Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

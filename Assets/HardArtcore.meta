@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/HardArtcore.meta
 guid: c29e2fcb3cd5c9f47a5083b6e5e91a4e
+========
+guid: f54d1bd14bd3ca042bd867b519fee8cc
+>>>>>>>> main:Assets/TextMesh Pro.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
