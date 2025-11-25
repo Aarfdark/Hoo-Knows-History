@@ -5,8 +5,10 @@ public class TargetNarration : MonoBehaviour
 {
     public AudioSource audioSource;
 
-    public AudioClip defaultClip;      // Audio 1
-    public AudioClip[] darkBlueClips;  // Audio 2–4
+    public AudioClip defaultClip;        // intro / no target
+    public AudioClip[] darkBlueClips;    // 02–10
+    public AudioClip blackClip;          // 11
+    public AudioClip[] orangeClips;      // 12–15
 
     public bool targetVisible = false;
 
@@ -15,19 +17,18 @@ public class TargetNarration : MonoBehaviour
         var observer = GetComponent<ObserverBehaviour>();
         if (observer != null)
             observer.OnTargetStatusChanged += OnTargetStatusChanged;
-
-        // ❌ Do NOT auto-play anything here
     }
 
     private void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
     {
-        bool isTracked = status.Status == Status.TRACKED || status.Status == Status.EXTENDED_TRACKED;
+        bool isTracked =
+            status.Status == Status.TRACKED ||
+            status.Status == Status.EXTENDED_TRACKED;
 
-        // Only update our visibility state — DO NOT PLAY AUDIO AUTOMATICALLY
         targetVisible = isTracked;
     }
 
-    // Called by History Button
+    // Default intro
     public void PlayDefaultAudio()
     {
         audioSource.Stop();
@@ -38,15 +39,33 @@ public class TargetNarration : MonoBehaviour
             audioSource.Play();
     }
 
-    // Called by History Button
+    // DARK BLUE
     public void PlayDarkBlueSequence()
     {
-        StartCoroutine(PlayClipsInOrder());
+        StartCoroutine(PlayClipArray(darkBlueClips));
     }
 
-    System.Collections.IEnumerator PlayClipsInOrder()
+    // ORANGE
+    public void PlayOrangeSequence()
     {
-        foreach (var clip in darkBlueClips)
+        StartCoroutine(PlayClipArray(orangeClips));
+    }
+
+    // BLACK
+    public void PlayBlackClip()
+    {
+        audioSource.Stop();
+        audioSource.clip = blackClip;
+        audioSource.volume = SettingsManager.narrationVolume;
+
+        if (SettingsManager.narrationEnabled)
+            audioSource.Play();
+    }
+
+    // Generic coroutine for playing a sequence
+    System.Collections.IEnumerator PlayClipArray(AudioClip[] clips)
+    {
+        foreach (var clip in clips)
         {
             audioSource.Stop();
             audioSource.clip = clip;

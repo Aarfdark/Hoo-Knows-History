@@ -3,8 +3,10 @@ using Vuforia;
 
 public class TargetController : MonoBehaviour
 {
-    public GameObject cube;  // assign the cube child in the Inspector
-    public static TargetController currentlyTracked; // global reference
+    public GameObject cube;  
+    public TargetNarration narration;   // <-- ADD THIS
+
+    public static TargetController currentlyTracked;
 
     private ObserverBehaviour observer;
 
@@ -14,7 +16,6 @@ public class TargetController : MonoBehaviour
         if (observer)
             observer.OnTargetStatusChanged += OnTargetStatusChanged;
 
-        // Hide cube at start
         if (cube != null)
             cube.SetActive(false);
     }
@@ -27,35 +28,50 @@ public class TargetController : MonoBehaviour
 
     private void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
     {
-        bool isTracked = status.Status == Status.TRACKED || status.Status == Status.EXTENDED_TRACKED;
+        bool reallyTracked =
+            status.Status == Status.TRACKED ||
+            status.Status == Status.EXTENDED_TRACKED;
 
-        if (isTracked)
+        bool reallyLost =
+            status.Status == Status.NO_POSE;
+
+        if (reallyTracked)
         {
-            // Register this as the current tracked target
+            // update narration visibility
+            if (narration != null)
+                narration.targetVisible = true;
+
+            // hide other cubes
             currentlyTracked = this;
+            HideOtherCubes();
 
-            // Hide all other cubes
-            TargetController[] allTargets = FindObjectsOfType<TargetController>();
-            foreach (var target in allTargets)
-            {
-                if (target != this && target.cube != null)
-                    target.cube.SetActive(false);
-            }
-
-            // Show this cube automatically
             if (cube != null)
                 cube.SetActive(true);
 
-            Debug.Log($"{name} is now tracked and showing its cube.");
+            Debug.Log($"{name} FOUND");
         }
-        else if (currentlyTracked == this)
+        else if (reallyLost)
         {
-            // Unregister and hide cube when tracking is lost
-            currentlyTracked = null;
+            if (narration != null)
+                narration.targetVisible = false;
+
             if (cube != null)
                 cube.SetActive(false);
 
-            Debug.Log($"{name} lost tracking and hid its cube.");
+            if (currentlyTracked == this)
+                currentlyTracked = null;
+
+            Debug.Log($"{name} LOST");
+        }
+    }
+
+    void HideOtherCubes()
+    {
+        var all = FindObjectsOfType<TargetController>();
+        foreach (var t in all)
+        {
+            if (t != this && t.cube != null)
+                t.cube.SetActive(false);
         }
     }
 

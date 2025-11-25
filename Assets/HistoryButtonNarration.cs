@@ -3,34 +3,49 @@ using UnityEngine;
 public class HistoryButtonNarration : MonoBehaviour
 {
     public AudioSource audioSource;
-    public AudioClip introClip;                // Audio 1
-    public TargetNarration targetNarration;    // Reference to detection script
+    public AudioClip introClip;
+
+    public TargetNarration darkBlueTarget;
+    public TargetNarration blackTarget;
+    public TargetNarration orangeTarget;
 
     public void PlayNarration()
     {
-        // 1. Check narration enabled
         if (!SettingsManager.narrationEnabled)
         {
             Debug.Log("Narration OFF – no audio played.");
             return;
         }
 
-        // 2. Apply global volume
         audioSource.volume = SettingsManager.narrationVolume;
-
-        // 3. Stop any currently playing audio
         audioSource.Stop();
 
-        // 4. If target detected → play dark blue sequence
-        if (targetNarration != null && targetNarration.targetVisible)
+        // DARK BLUE
+        if (darkBlueTarget != null && darkBlueTarget.targetVisible)
         {
-            Debug.Log("DarkBlue detected → playing clips 2–4");
-            targetNarration.PlayDarkBlueSequence();
+            Debug.Log("DarkBlue detected → playing clips 02–10");
+            darkBlueTarget.PlayDarkBlueSequence();
             return;
         }
 
-        // 5. Otherwise → play intro narration
-        Debug.Log("No target detected → playing intro narration");
+        // BLACK
+        if (blackTarget != null && blackTarget.targetVisible)
+        {
+            Debug.Log("Black detected → playing 11_oc.wav");
+            blackTarget.PlayBlackClip();
+            return;
+        }
+
+        // ORANGE
+        if (orangeTarget != null && orangeTarget.targetVisible)
+        {
+            Debug.Log("Black detected → playing 11_oc.wav");
+            orangeTarget.PlayOrangeSequence();
+            return;
+        }
+
+        // NO TARGET → default intro
+        Debug.Log("No target detected → playing intro");
         audioSource.clip = introClip;
         audioSource.Play();
     }

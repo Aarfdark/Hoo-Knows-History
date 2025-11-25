@@ -1,0 +1,2837 @@
+Unity Editor version:    6000.2.6f2 (4a4dcaec6541)
+Branch:                  6000.2/respin/6000.2.6f2-cc51a95c03
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.6.1 (Build 24G90)
+Darwin version:          24.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Date:                    2025-11-23T00:31:04Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rythamachevendra" at "2025-11-23T00:31:04.292227Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rythamachevendra/Documents/GitHub/capstone-blue-9
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51537
+-licensingIpc
+LicenseClient-rythamachevendra
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/rythamachevendra/Documents/GitHub/capstone-blue-9
+/Users/rythamachevendra/Documents/GitHub/capstone-blue-9
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704591445888]  Target information:
+
+Player connection [140704591445888]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1736490877 [EditorId] 1736490877 [Version] 1048832 [Id] OSXEditor(0,MacBookAir.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704591445888] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704591445888] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 602.86 ms, found 6 plugins.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6760, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              83c74b63d0cf4e49b8cb0b6d423aa505
+  Correlation Id:          98a7eda361461c1960ed2ed284a6f2ab
+  External correlation Id: 5814374531143868284
+  Machine Id:              cx58dz6moP2K8QviggED9e8hPWY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rythamachevendra" (connect: 0.00s, validation: 0.01s, handshake: 16.99s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rythamachevendra-notifications" at "2025-11-23T00:31:21.299972Z"
+[Licensing::Module] Licensing Background thread has ended after 17.01s
+Preloading 4 native plugins for Editor in 11609.42 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rythamachevendra/Documents/GitHub/capstone-blue-9/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Mac GPU Family: 2
+Apple GPU Family: 0
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56295
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.6f2/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892066151-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.6f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.032696 seconds.
+- Loaded All Assemblies, in  3.062 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.473 seconds
+Domain Reload Profiling: 6538ms
+	BeginReloadAssembly (1021ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (401ms)
+	RebuildNativeTypeToScriptingClass (90ms)
+	initialDomainReloadingComplete (390ms)
+	LoadAllAssembliesAndSetupDomain (1159ms)
+		LoadAssemblies (1018ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1133ms)
+			TypeCache.Refresh (1121ms)
+				TypeCache.ScanAssembly (1022ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (3477ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1084ms)
+			SetLoadedEditorAssemblies (35ms)
+			BeforeProcessingInitializeOnLoad (665ms)
+			ProcessInitializeOnLoadAttributes (1000ms)
+			ProcessInitializeOnLoadMethodAttributes (348ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+Asset path could not be found for script compilation file '/Assets/AboutUs.cs'
+Asset path could not be found for script compilation file '/Assets/ARPageController.cs'
+Asset path could not be found for script compilation file '/Assets/HistoryButtonAudio.cs'
+Asset path could not be found for script compilation file '/Assets/HistoryButtonNarration.cs'
+Asset path could not be found for script compilation file '/Assets/ImageTargetDetector.cs'
+Asset path could not be found for script compilation file '/Assets/SettingsManager.cs'
+Asset path could not be found for script compilation file '/Assets/TargetController.cs'
+Asset path could not be found for script compilation file '/Assets/TargetNarration.cs'
+- Loaded All Assemblies, in  4.929 seconds
+Refreshing native plugins compatible for Editor in 16.17 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.860 seconds
+Domain Reload Profiling: 8790ms
+	BeginReloadAssembly (874ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (253ms)
+	RebuildCommonClasses (205ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (223ms)
+	LoadAllAssembliesAndSetupDomain (3563ms)
+		LoadAssemblies (2214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1658ms)
+			TypeCache.Refresh (1324ms)
+				TypeCache.ScanAssembly (1147ms)
+			BuildScriptInfoCaches (238ms)
+			ResolveRequiredComponents (59ms)
+	FinalizeReload (3862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (32ms)
+			BeforeProcessingInitializeOnLoad (811ms)
+			ProcessInitializeOnLoadAttributes (2113ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.39 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 30.46 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3918 unused Assets / (1.9 MB). Loaded Objects now: 4531.
+Memory consumption went from 91.7 MB to 89.8 MB.
+Total: 27.945833 ms (FindLiveObjects: 2.545569 ms CreateObjectMapping: 0.973694 ms MarkObjects: 18.687422 ms  DeleteObjects: 5.736101 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 314251.338434 seconds.
+  path: 
+  artifactKey: Guid(e8a651182fee24949b86ee5b06f9104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(e8a651182fee24949b86ee5b06f9104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001457749 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'e8a651182fee24949b86ee5b06f9104b'
+  ERROR: Unknown asset with GUID 'e8a651182fee24949b86ee5b06f9104b'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002014 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000167224 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033322 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00013048 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001385 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000169085 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032714 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000195732 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000237452 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040601 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000259211 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000150132 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044403 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000130522 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000104184 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029785 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000275011 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001098 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00051961 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028409 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000105252 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000136951 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030592 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000306341 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000914 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000526838 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031632 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000138561 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001692 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000437978 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032758 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000224064 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001186 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00069705 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035853 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000211841 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000741144 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038400 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000151532 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000207439 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034923 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000277384 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000211408 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038744 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000453937 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000574241 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033556 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000153346 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000990 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000533203 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038666 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000143793 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000615672 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032757 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000132708 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000794 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000550422 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026708 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000191238 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003112092 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028987 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000223804 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000140543 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035720 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00020942 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000528993 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036925 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000213486 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001533 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000574406 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037751 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00018183 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001309 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000368036 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036511 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000166974 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001352 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000585132 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039400 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00029158 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000265653 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035768 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000146723 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000850 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000542014 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034509 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000141003 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001245 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000262516 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036001 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000167935 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001770 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.0003617 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031597 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000216392 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001152 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00018033 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035498 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000260811 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001448 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000471843 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034018 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000122306 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001049 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000734123 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041223 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000188597 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000593534 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039652 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000165512 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001487 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000807846 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052146 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000207571 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000793 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000358794 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043092 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00271418 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007243267 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060117 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000180935 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000169019 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031372 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000147441 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000557375 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030458 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000208081 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001163698 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034213 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000208864 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000580565 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039689 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255677 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001186 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000273622 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039258 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000256684 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000621962 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041090 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000350963 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002418 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000696063 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034381 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000170352 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000214587 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031366 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000143193 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000511719 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032265 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000146597 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000547797 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031916 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000144776 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000903 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000643337 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040496 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000145618 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001161 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000647251 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026993 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000190583 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002506 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000257079 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035369 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000390327 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000642604 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032941 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000260288 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00030353 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034592 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000248328 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.0003022 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034973 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000171172 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001115 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000407764 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035226 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000299462 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000782 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000433173 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033484 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000199038 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003128 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000331724 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032283 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000228648 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001325 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000806461 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033950 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00020013 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001340 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000430695 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034288 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000166437 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000915 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000221146 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037248 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000164982 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000747 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000581466 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033906 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000245852 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001014 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000430123 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027792 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253264 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000189376 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027373 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000141818 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000227912 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031918 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000211704 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001246 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000423504 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032046 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000111531 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000958 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000477661 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034855 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000211239 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001073 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000273099 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035690 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00028701 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001133 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000329897 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028318 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00021473 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000997 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000517475 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034562 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000271211 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000649715 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040672 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000273296 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000953 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000256871 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047320 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000227837 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000978 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000484098 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040439 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000279759 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001300 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000218485 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051062 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001054997 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000275695 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039833 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00024421 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000722469 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037467 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000242794 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001300 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000482219 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030573 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000175291 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001309 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000610653 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036276 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000453688 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001200 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000498238 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030516 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000271248 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000490056 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033208 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000426785 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000301627 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037031 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000146433 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00023954 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033523 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000163248 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001118 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000465889 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032520 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000216488 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001601 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307718 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031545 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000187601 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002417 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000292456 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038187 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000116148 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001248 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000681961 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034841 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000175329 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00045297 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032664 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000141049 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001410 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000534921 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030622 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000214561 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000390253 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031071 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000166932 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001733 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00053277 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033004 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000201509 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000369147 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040888 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000181512 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001098 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000163334 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031446 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000223134 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001352 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000497101 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031591 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000172186 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001138 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000526092 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028602 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000162736 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001505 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000428731 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028918 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000147937 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001125 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000474215 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030105 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000183711 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001139 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000737553 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032353 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000174254 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001419 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00162393 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028614 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000259748 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000215284 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032124 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000188141 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001372 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00055059 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042578 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000166602 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001103 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00027893 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035216 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000180123 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000482695 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031202 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000186326 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: 
+  artifactKey: Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(26655d66bc57c43db8264b691a75c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000284642 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+  ERROR: Unknown asset with GUID '26655d66bc57c43db8264b691a75c0dd'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033292 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000676913 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001822 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000577543 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038381 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000178499 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003273 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00032868 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045826 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000160292 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001030 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00017312 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055077 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000190634 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000487311 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045716 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000197167 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001936 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000884779 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055195 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000256237 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000974 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000289224 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058694 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000332917 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.00064005 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051171 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000198101 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000597222 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052807 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000278319 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001567 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000288694 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056448 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000231875 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003191 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000186114 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056446 seconds.
+  path: 
+  artifactKey: Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(79c1f1dad9e7641a1a48d9cea1a49f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000241891 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+  ERROR: Unknown asset with GUID '79c1f1dad9e7641a1a48d9cea1a49f1c'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: 
+  artifactKey: Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aff3ecc07bd8644fdb7906557214fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000410901 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+  ERROR: Unknown asset with GUID 'aff3ecc07bd8644fdb7906557214fdc2'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+Asset path could not be found for script compilation file '/Assets/AboutUs.cs'
+Asset path could not be found for script compilation file '/Assets/ARPageController.cs'
+Asset path could not be found for script compilation file '/Assets/HistoryButtonAudio.cs'
+Asset path could not be found for script compilation file '/Assets/HistoryButtonNarration.cs'
+Asset path could not be found for script compilation file '/Assets/ImageTargetDetector.cs'
+Asset path could not be found for script compilation file '/Assets/SettingsManager.cs'
+Asset path could not be found for script compilation file '/Assets/TargetController.cs'
+Asset path could not be found for script compilation file '/Assets/TargetNarration.cs'
+- Loaded All Assemblies, in  3.226 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.722 seconds
+Domain Reload Profiling: 5962ms
+	BeginReloadAssembly (997ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (348ms)
+	RebuildCommonClasses (138ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (1976ms)
+		LoadAssemblies (1629ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (756ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (655ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (2724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (624ms)
+			ProcessInitializeOnLoadAttributes (1489ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.06 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 25.16 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3916 unused Assets / (0.8 MB). Loaded Objects now: 4532.
+Memory consumption went from 98.0 MB to 97.2 MB.
+Total: 21.862289 ms (FindLiveObjects: 0.904062 ms CreateObjectMapping: 0.942411 ms MarkObjects: 14.131418 ms  DeleteObjects: 5.880363 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+Asset path could not be found for script compilation file '/Assets/AboutUs.cs'
+Asset path could not be found for script compilation file '/Assets/ARPageController.cs'
+Asset path could not be found for script compilation file '/Assets/HistoryButtonAudio.cs'
+Asset path could not be found for script compilation file '/Assets/HistoryButtonNarration.cs'
+Asset path could not be found for script compilation file '/Assets/ImageTargetDetector.cs'
+Asset path could not be found for script compilation file '/Assets/SettingsManager.cs'
+Asset path could not be found for script compilation file '/Assets/TargetController.cs'
+Asset path could not be found for script compilation file '/Assets/TargetNarration.cs'
+- Loaded All Assemblies, in  2.444 seconds
+Refreshing native plugins compatible for Editor in 6.59 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.924 seconds
+Domain Reload Profiling: 5375ms
+	BeginReloadAssembly (760ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (320ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1459ms)
+		LoadAssemblies (1119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (594ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (533ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (600ms)
+			ProcessInitializeOnLoadAttributes (1579ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.45 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 27.21 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3916 unused Assets / (1.5 MB). Loaded Objects now: 4532.
+Memory consumption went from 98.8 MB to 97.3 MB.
+Total: 21.423718 ms (FindLiveObjects: 1.932506 ms CreateObjectMapping: 0.988245 ms MarkObjects: 14.896695 ms  DeleteObjects: 3.599812 ms)
+
+Prepare: number of updated asset objects reloaded= 0

@@ -355,6 +355,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e8a651182fee24949b86ee5b06f9104b, type: 3}
   - {fileID: 8300000, guid: 26655d66bc57c43db8264b691a75c0dd, type: 3}
   - {fileID: 8300000, guid: aff3ecc07bd8644fdb7906557214fdc2, type: 3}
+  - {fileID: 8300000, guid: 17143ccfb86174abbac0bc810beb7ca4, type: 3}
+  - {fileID: 8300000, guid: 46f5d35c153f14bb6a166206ade72f09, type: 3}
+  - {fileID: 8300000, guid: 2db48ba795be84f79a4fcc4d4c968b2a, type: 3}
+  - {fileID: 8300000, guid: 5235b46034b9a4b18b29e411af2932cc, type: 3}
+  - {fileID: 8300000, guid: a94b59e5664a34b58a1c89fa58887d85, type: 3}
+  - {fileID: 8300000, guid: ec5c58adaddb248308efb33bd039442c, type: 3}
+  - {fileID: 8300000, guid: a4196e7ec10cd4786baf78398aa6e0ef, type: 3}
+  blackClip: {fileID: 8300000, guid: 92bbe5ddaed15445bafdbcd9903ed68d, type: 3}
+  orangeClips:
+  - {fileID: 8300000, guid: b7cafbf47df5a46f891cf87c8cf93b47, type: 3}
+  - {fileID: 8300000, guid: b8cb085a02b854b8c94c1ad2637b8200, type: 3}
+  - {fileID: 8300000, guid: a20b8641b0f4c4bf0936dd3f274261da, type: 3}
   targetVisible: 0
 --- !u!114 &107983745
 MonoBehaviour:
@@ -2901,7 +2913,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   audioSource: {fileID: 1596042608}
   introClip: {fileID: 8300000, guid: 79c1f1dad9e7641a1a48d9cea1a49f1c, type: 3}
-  targetNarration: {fileID: 107983744}
+  darkBlueTarget: {fileID: 107983744}
+  blackTarget: {fileID: 1262947178}
+  orangeTarget: {fileID: 1606168575}
 --- !u!82 &1060184420
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3010,7 +3024,8 @@ GameObject:
   - component: {fileID: 1262947174}
   - component: {fileID: 1262947173}
   - component: {fileID: 1262947176}
-  - component: {fileID: 1262947177}
+  - component: {fileID: 1262947178}
+  - component: {fileID: 1262947179}
   m_Layer: 0
   m_Name: Black
   m_TagString: Untagged
@@ -3044,7 +3059,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1262947177}
+  mPreview: {fileID: 1262947179}
 --- !u!4 &1262947174
 Transform:
   m_ObjectHideFlags: 0
@@ -3073,8 +3088,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 895d596038fe749c49f05bbfab6f0bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 0}
---- !u!114 &1262947177
+  cube: {fileID: 8164078560137790019}
+--- !u!114 &1262947178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262947170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b58ae22a18c4cae868b0b64e722022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetNarration
+  audioSource: {fileID: 1060184420}
+  defaultClip: {fileID: 8300000, guid: 79c1f1dad9e7641a1a48d9cea1a49f1c, type: 3}
+  darkBlueClips:
+  - {fileID: 8300000, guid: e8a651182fee24949b86ee5b06f9104b, type: 3}
+  - {fileID: 8300000, guid: 26655d66bc57c43db8264b691a75c0dd, type: 3}
+  - {fileID: 8300000, guid: aff3ecc07bd8644fdb7906557214fdc2, type: 3}
+  - {fileID: 8300000, guid: 17143ccfb86174abbac0bc810beb7ca4, type: 3}
+  - {fileID: 8300000, guid: 46f5d35c153f14bb6a166206ade72f09, type: 3}
+  - {fileID: 8300000, guid: 2db48ba795be84f79a4fcc4d4c968b2a, type: 3}
+  - {fileID: 8300000, guid: 5235b46034b9a4b18b29e411af2932cc, type: 3}
+  - {fileID: 8300000, guid: a94b59e5664a34b58a1c89fa58887d85, type: 3}
+  - {fileID: 8300000, guid: ec5c58adaddb248308efb33bd039442c, type: 3}
+  - {fileID: 8300000, guid: a4196e7ec10cd4786baf78398aa6e0ef, type: 3}
+  blackClip: {fileID: 8300000, guid: 92bbe5ddaed15445bafdbcd9903ed68d, type: 3}
+  orangeClips:
+  - {fileID: 8300000, guid: b7cafbf47df5a46f891cf87c8cf93b47, type: 3}
+  - {fileID: 8300000, guid: b8cb085a02b854b8c94c1ad2637b8200, type: 3}
+  - {fileID: 8300000, guid: a20b8641b0f4c4bf0936dd3f274261da, type: 3}
+  targetVisible: 0
+--- !u!114 &1262947179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3816,7 +3862,8 @@ GameObject:
   - component: {fileID: 1606168572}
   - component: {fileID: 1606168571}
   - component: {fileID: 1606168573}
-  - component: {fileID: 1606168574}
+  - component: {fileID: 1606168575}
+  - component: {fileID: 1606168576}
   m_Layer: 0
   m_Name: Orange
   m_TagString: Untagged
@@ -3850,7 +3897,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1606168574}
+  mPreview: {fileID: 1606168576}
 --- !u!4 &1606168572
 Transform:
   m_ObjectHideFlags: 0
@@ -3880,7 +3927,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 1370427162}
---- !u!114 &1606168574
+--- !u!114 &1606168575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606168568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b58ae22a18c4cae868b0b64e722022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetNarration
+  audioSource: {fileID: 1060184420}
+  defaultClip: {fileID: 8300000, guid: 79c1f1dad9e7641a1a48d9cea1a49f1c, type: 3}
+  darkBlueClips:
+  - {fileID: 8300000, guid: e8a651182fee24949b86ee5b06f9104b, type: 3}
+  - {fileID: 8300000, guid: 26655d66bc57c43db8264b691a75c0dd, type: 3}
+  - {fileID: 8300000, guid: aff3ecc07bd8644fdb7906557214fdc2, type: 3}
+  - {fileID: 8300000, guid: 17143ccfb86174abbac0bc810beb7ca4, type: 3}
+  - {fileID: 8300000, guid: 46f5d35c153f14bb6a166206ade72f09, type: 3}
+  - {fileID: 8300000, guid: 2db48ba795be84f79a4fcc4d4c968b2a, type: 3}
+  - {fileID: 8300000, guid: 5235b46034b9a4b18b29e411af2932cc, type: 3}
+  - {fileID: 8300000, guid: a94b59e5664a34b58a1c89fa58887d85, type: 3}
+  - {fileID: 8300000, guid: ec5c58adaddb248308efb33bd039442c, type: 3}
+  - {fileID: 8300000, guid: a4196e7ec10cd4786baf78398aa6e0ef, type: 3}
+  blackClip: {fileID: 8300000, guid: 92bbe5ddaed15445bafdbcd9903ed68d, type: 3}
+  orangeClips:
+  - {fileID: 8300000, guid: b7cafbf47df5a46f891cf87c8cf93b47, type: 3}
+  - {fileID: 8300000, guid: b8cb085a02b854b8c94c1ad2637b8200, type: 3}
+  - {fileID: 8300000, guid: a20b8641b0f4c4bf0936dd3f274261da, type: 3}
+  targetVisible: 0
+--- !u!114 &1606168576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
