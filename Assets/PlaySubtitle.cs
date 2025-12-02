@@ -53,8 +53,8 @@ public class PlaySubtitle : MonoBehaviour
         }
 
         // NO TARGET → default intro
-        Debug.Log("SUBTITLE - No target detected → playing intro");
-        var captionText = captionsManager.GetText("Intro_0");
+        Debug.Log("SUBTITLE - " + audioSource.clip.name);
+        var captionText = captionsManager.GetText(audioSource.clip.name);
         subtitleGUIManager.SetText(captionText);
         // Debug.Log(captionText);
     }

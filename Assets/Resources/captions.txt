@@ -2,28 +2,13 @@
 	"lines":
 	[
 		{
-			"key": "Intro_0",
-			"line":"Welcome to Hoo Knows History!!"
+			"key": "01_intro",
+			"line":"Welcome to Hoo Knows History!! Our journey begins not within the bounds of the University, but just beyond them — past the open horizon Jefferson left at the edge of the Academical Village so students would always look outward, beyond the familiar, toward the unknown — toward the future waiting just beyond what they could see. Toward what would soon be known as Kitty Foster’s Canada."
+
 		},
 		{
-			"key": "Intro_1",
-			"line":"Our journey begins not within the bounds of the University, but just beyond them"
-		},
-		{
-			"key": "Intro_2",
-			"line":"past the open horizon Jefferson left at the edge of the Academical Village so students would always look outward"
-		},
-		{
-			"key": "Intro_3",
-			"line":"beyond the familiar, toward the unknown"
-		},
-		{
-			"key": "Intro_4",
-			"line":"toward the future waiting just beyond what they could see"
-		},
-		{
-			"key": "Intro_5",
-			"line":"Toward what would soon be known as Kitty Foster’s Canada."
+			"key":"02_kf",
+			"line":"Now let’s look beyond where Old Cabell Hall stands today to a time and place of the past. The year is 1820, and a woman named Catherine “Kitty” Foster, a Black woman of light complexion and possibly mixed ancestry, has just gained her freedom. That lighter skin — likely the result of a white father — would have influenced how she was seen and treated, sometimes offering a measure of protection in a society built on racial hierarchy."
 		}
 	]
 }

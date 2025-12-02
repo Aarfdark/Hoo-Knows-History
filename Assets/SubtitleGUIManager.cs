@@ -13,6 +13,6 @@ public class SubtitleGUIManager : MonoBehaviour
 
     public void SetText(string text)
     {
-        textBox.text = text;
+        textBox.text = "<mark=#444444>" + text + "</mark>";
     }
 }
