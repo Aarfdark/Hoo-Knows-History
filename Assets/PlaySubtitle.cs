@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HistoryButtonNarration : MonoBehaviour
+public class PlaySubtitle : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip introClip;
@@ -53,10 +53,9 @@ public class HistoryButtonNarration : MonoBehaviour
         }
 
         // NO TARGET → default intro
-        Debug.Log("No target detected → playing intro");
-        audioSource.clip = introClip;
+        Debug.Log("SUBTITLE - No target detected → playing intro");
         var captionText = captionsManager.GetText("Intro_0");
         subtitleGUIManager.SetText(captionText);
-        audioSource.Play();
+        // Debug.Log(captionText);
     }
 }
