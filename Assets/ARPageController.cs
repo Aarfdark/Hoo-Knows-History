@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Vuforia;
 
 public class ARPageController : MonoBehaviour
 {
