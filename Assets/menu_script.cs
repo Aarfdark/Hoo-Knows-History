@@ -40,12 +40,11 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("AboutUsScene");
     }
 
-    public void GoToTutorialScene(){
-        SceneManager.LoadScene("AboutUsScene");
-    }
-
     public void GoToHomeScene(){
         SceneManager.LoadScene("MenuScene");
+    }
+    public void GoToTutorialScene(){
+        SceneManager.LoadScene("TutorialScene");
     }
     void Update()
     {
