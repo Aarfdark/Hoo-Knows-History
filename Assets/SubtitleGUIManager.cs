@@ -6,6 +6,11 @@ public class SubtitleGUIManager : MonoBehaviour
 {
     public TextMeshProUGUI textBox;
 
+    private void Awake()
+    {
+        ClearText();
+    }
+
     public void ClearText()
     {
         textBox.text = string.Empty;

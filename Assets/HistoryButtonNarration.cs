@@ -14,8 +14,76 @@ public class HistoryButtonNarration : MonoBehaviour
 
     private void Awake()
     {
-        captionsManager = FindObjectOfType<CaptionsManager>();
-        subtitleGUIManager = FindObjectOfType<SubtitleGUIManager>();
+        captionsManager = FindFirstObjectByType<CaptionsManager>();
+        subtitleGUIManager = FindFirstObjectByType<SubtitleGUIManager>();
+        // captionsManager = FindObjectOfType<CaptionsManager>();
+        // subtitleGUIManager = FindObjectOfType<SubtitleGUIManager>();
+        // subscribe to target clip events so we can update captions when targets play
+        if (darkBlueTarget != null)
+        {
+            darkBlueTarget.OnClipStarted += HandleTargetClipStarted;
+            darkBlueTarget.OnPlaybackEnded += HandlePlaybackEnded;
+        }
+        if (blackTarget != null)
+        {
+            blackTarget.OnClipStarted += HandleTargetClipStarted;
+            blackTarget.OnPlaybackEnded += HandlePlaybackEnded;
+        }
+        if (orangeTarget != null)
+        {
+            orangeTarget.OnClipStarted += HandleTargetClipStarted;
+            orangeTarget.OnPlaybackEnded += HandlePlaybackEnded;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (darkBlueTarget != null)
+        {
+            darkBlueTarget.OnClipStarted -= HandleTargetClipStarted;
+            darkBlueTarget.OnPlaybackEnded -= HandlePlaybackEnded;
+        }
+        if (blackTarget != null)
+        {
+            blackTarget.OnClipStarted -= HandleTargetClipStarted;
+            blackTarget.OnPlaybackEnded -= HandlePlaybackEnded;
+        }
+        if (orangeTarget != null)
+        {
+            orangeTarget.OnClipStarted -= HandleTargetClipStarted;
+            orangeTarget.OnPlaybackEnded -= HandlePlaybackEnded;
+        }
+    }
+
+    private void HandleTargetClipStarted(AudioClip clip)
+    {
+        if (clip == null || captionsManager == null || subtitleGUIManager == null)
+            return;
+
+        Debug.Log("Target started clip → fetching caption for: " + clip.name);
+        captionText = captionsManager.GetText(clip.name);
+        subtitleGUIManager.SetText(captionText);
+    }
+
+    private void HandlePlaybackEnded()
+    {
+        if (subtitleGUIManager == null)
+            return;
+
+        Debug.Log("Playback ended → clearing captions");
+        subtitleGUIManager.SetText("");
+    }
+
+    private System.Collections.IEnumerator ClearCaptionsAfterIntro(AudioClip clip)
+    {
+        if (clip == null)
+            yield break;
+
+        yield return new WaitForSeconds(clip.length);
+
+        // only clear if the intro clip is still the one we played (not replaced)
+        if (audioSource.clip == clip)
+            subtitleGUIManager.SetText("");
     }
 
     public void PlayNarration()
@@ -34,8 +102,6 @@ public class HistoryButtonNarration : MonoBehaviour
         {
             Debug.Log("DarkBlue detected → playing clips 02–10");
             darkBlueTarget.PlayDarkBlueSequence();
-            captionText = captionsManager.GetText(audioSource.clip.name);
-            subtitleGUIManager.SetText(captionText);
             return;
         }
 
@@ -44,8 +110,6 @@ public class HistoryButtonNarration : MonoBehaviour
         {
             Debug.Log("Black detected → playing 11_oc.wav");
             blackTarget.PlayBlackClip();
-            captionText = captionsManager.GetText(audioSource.clip.name);
-            subtitleGUIManager.SetText(captionText);
             return;
         }
 
@@ -54,17 +118,22 @@ public class HistoryButtonNarration : MonoBehaviour
         {
             Debug.Log("Black detected → playing 11_oc.wav");
             orangeTarget.PlayOrangeSequence();
-            captionText = captionsManager.GetText(audioSource.clip.name);
-            subtitleGUIManager.SetText(captionText);
             return;
         }
         else{
             // NO TARGET → default intro
             Debug.Log("No target detected → playing intro");
             audioSource.clip = introClip;
+
+            // captions
+            Debug.Log("Fetching caption for clip: " + audioSource.clip.name);
             captionText = captionsManager.GetText(audioSource.clip.name);
             subtitleGUIManager.SetText(captionText);
+
             audioSource.Play();
+
+            // clear caption after this intro clip finishes
+            StartCoroutine(ClearCaptionsAfterIntro(audioSource.clip));
 
         }
 

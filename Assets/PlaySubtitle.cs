@@ -13,8 +13,10 @@ public class PlaySubtitle : MonoBehaviour
 
     private void Awake()
     {
-        captionsManager = FindObjectOfType<CaptionsManager>();
-        subtitleGUIManager = FindObjectOfType<SubtitleGUIManager>();
+        captionsManager = FindFirstObjectByType<CaptionsManager>();
+        subtitleGUIManager = FindFirstObjectByType<SubtitleGUIManager>();
+        // FindObjectOfType<CaptionsManager>();
+        // subtitleGUIManager = FindObjectOfType<SubtitleGUIManager>();
     }
 
     public void PlayNarration()

@@ -9,6 +9,58 @@
 		{
 			"key":"02_kf",
 			"line":"Now let’s look beyond where Old Cabell Hall stands today to a time and place of the past. The year is 1820, and a woman named Catherine “Kitty” Foster, a Black woman of light complexion and possibly mixed ancestry, has just gained her freedom. That lighter skin — likely the result of a white father — would have influenced how she was seen and treated, sometimes offering a measure of protection in a society built on racial hierarchy."
+		},
+		{
+			"key":"03_kf",
+			"line":"Kitty chose to rent land in a free African American community called Canada, just south of the University of Virginia. She and her three children — Sarah, German Evans, and Burwell Evans — joined several other free Black families who lived and worked there. Residents of Canada made their living serving the university: washerwomen, seamstresses, carpenters, and cobblers supporting the students and faculty who lived on the Lawn."
+		},
+		{
+			"key":"04_kf",
+			"line":"Kitty herself began working as a washerwoman, earning $4 a year from the university. She continued renting land until December 1833, when she saved enough to purchase just over two acres from a white merchant named John Winn. During that time, she had her fourth and final child, Ann. This purchase came only two years after Nat Turner’s rebellion, when new laws further restricted the movement and rights of free Black Virginians. Owning land gave Kitty and her family a rare form of legal protection — and a measure of stability — in the midst of growing hostility."
+		},
+		{
+			"key":"05_kf",
+			"line":"But even landownership couldn’t fully shield her. In 1834, just a year after buying her property, students attacked her home — throwing flower pots and attempting to break in. Only three years later, in 1837, students rioted again, firing weapons illegally. It was rumored that they had hidden their guns in Kitty’s house, an especially dangerous accusation since free Black people were forbidden to possess firearms."
+		},
+		{
+			"key":"06_kf",
+			"line":"Still, Kitty Foster endured. Her eldest daughter Sarah married Christopher Smith in 1835, and her son German married Agnes Isaacs, daughter of Nancy West, the following year. By 1840, German and Agnes had moved to Ohio, ensuring that neither they nor their children could be enslaved. Sarah’s daughter, Harriet Smith, was born in 1839 but lost her mother that same year — she continued to live with Kitty, who became both grandmother and guardian."
+		},
+		{
+			"key":"07_kf",
+			"line":"By the 1850 Census, Kitty’s household included her youngest daughter Ann and three grandchildren, all listed as “mulatto,” further confirming the family’s mixed ancestry. Her property was then valued at $450, and by 1860, it had risen to $4,000, with an additional $300 in personal property — a testament to her persistence and independence."
+		},
+		{
+			"key":"08_kf",
+			"line":"In 1857, Kitty’s grandchildren Susan and Clayton appeared before the Albemarle County Court seeking to be legally classified as “free persons of mixed blood.” This would allow them to avoid many of the harsh restrictions placed on free Black residents. Thomas Jefferson Randolph, Thomas Jefferson’s grandson and a member of UVA’s Board of Visitors, testified on their behalf, declaring they were “not Black.”"
+		},
+		{
+			"key":"09_kf",
+			"line":"When Kitty Foster died in 1863, she was buried in the small family cemetery on her own land — land she had once rented, then owned, and ultimately turned into a sanctuary for generations of her family. Her descendants remained there until 1906."
+		},
+		{
+			"key":"10_kf",
+			"line":"Today, the site lies just beyond UVA’s South Lawn, where, in 1993, archaeologists later uncovered more than thirty graves belonging to Kitty, her family, and her neighbors. The space is now home to the Kitty Foster Memorial, a quiet tribute to her courage and endurance. It stands as a reminder that the University’s story doesn’t end at the edge of the Lawn — it continues beyond the horizon, in the lives of those who helped build and sustain it from the margins."
+		},
+		{
+			"key":"11_oc",
+			"line":"Now, let’s bring Old Cabell Hall back into view. Old Cabell Hall was built because of the Rotunda fire of 1895, which destroyed much of the University’s original library and teaching spaces. The University needed new lecture halls, classrooms, and an auditorium to replace what was lost, so Old Cabell was constructed in 1898 as part of a trio of buildings — with Cocke and Rouss Halls — to close the south end of the Lawn and close off the view of Kitty’s Canada. However,  Had the rotunda never caught fire, the building closing off the lawn would have been very different. Let's take a few steps backward and look back at what could have been."
+		},
+		{
+			"key":"12_ca",
+			"line":"Welcome to 1895. It’s 30 years past the end of the civil war and 2 years ago John Kevan Peebles designed a triumphal arch that was to be constructed at the end of the Lawn to commemorate all the confederate soldiers lost to the war. Its neoclassical design reflected his desire for a unified architectural vision for the University and matched the design of his other two buildings, Fayeweather Hall and Minor Hall. However, before this monument could be built, tragedy struck and the Rotunda caught fire. Continue on to the last location of this tour to view the destruction that shaped the lawn of today."
+		},
+		{
+			"key":"13_rf",
+			"line":"Watch as you are transported back to October 27, 1895. It was early in the morning as faulty electrical wiring in the Rotunda Annex sparked a fire that soon engulfed the entire building. Students and professors formed bucket lines, racing to save books and furniture, even carrying Jefferson’s statue out onto the Lawn. By dawn, the great dome had collapsed, leaving only smoldering brick."
+		},
+		{
+			"key":"14_rf",
+			"line":"The funds once set aside for Peebles’s Confederate arch were reallocated to rebuild the Rotunda and construct the three South Lawn buildings that now stand behind you. What you see today is Stanford White’s reconstruction — a new Rotunda, born from the ashes of 1895."
+		},
+		{
+			"key":"15_end",
+			"line":"With that we conclude our tour. I hope you enjoyed it and that you learned something new today."
 		}
 	]
 }
