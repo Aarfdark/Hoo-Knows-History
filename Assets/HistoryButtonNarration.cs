@@ -62,7 +62,8 @@ public class HistoryButtonNarration : MonoBehaviour
 
         Debug.Log("Target started clip → fetching caption for: " + clip.name);
         captionText = captionsManager.GetText(clip.name);
-        subtitleGUIManager.SetText(captionText);
+        if(SettingsManager.captionsEnabled)
+            subtitleGUIManager.SetText(captionText);
     }
 
     private void HandlePlaybackEnded()
@@ -128,7 +129,9 @@ public class HistoryButtonNarration : MonoBehaviour
             // captions
             Debug.Log("Fetching caption for clip: " + audioSource.clip.name);
             captionText = captionsManager.GetText(audioSource.clip.name);
-            subtitleGUIManager.SetText(captionText);
+
+            if(SettingsManager.captionsEnabled)
+                subtitleGUIManager.SetText(captionText);
 
             audioSource.Play();
 

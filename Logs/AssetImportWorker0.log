@@ -1240,3 +1240,151 @@ Memory consumption went from 104.4 MB to 103.6 MB.
 Total: 5.078200 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.137400 ms MarkObjects: 3.532500 ms  DeleteObjects: 0.951300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6654.152571 seconds.
+  path: Assets/Scenes/ARScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39117d65aaf7d0c7f199fdeb91096fd1') in 0.0021066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481903 seconds.
+  path: Assets/Scenes/AboutUsScene.unity
+  artifactKey: Guid(b8a9abe47f2fc184280d804cec043bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AboutUsScene.unity using Guid(b8a9abe47f2fc184280d804cec043bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25cc7fd9b99bb0650fb218c2b1a4960a') in 0.0006492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.344566 seconds.
+  path: Assets/SettingsManager.cs
+  artifactKey: Guid(cf37a5a95d89d470aa9c1168de17d711) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SettingsManager.cs using Guid(cf37a5a95d89d470aa9c1168de17d711) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64072f2cb7eaf42f6cf01bac6264a374') in 0.1055166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Resources/captions.txt
+  artifactKey: Guid(17cbc6c7c5ca298429c19ac537aea286) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/captions.txt using Guid(17cbc6c7c5ca298429c19ac537aea286) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7712494ed71697d83378fde640e6eaae') in 0.0179106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HistoryButtonAudio.cs
+  artifactKey: Guid(a3041388773244058b8cfcd0ee6bdcff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HistoryButtonAudio.cs using Guid(a3041388773244058b8cfcd0ee6bdcff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73e6f840c468867320cc1be479dd7465') in 0.0177238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HistoryButtonNarration.cs
+  artifactKey: Guid(234b9546801614a0d928cd4059962900) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HistoryButtonNarration.cs using Guid(234b9546801614a0d928cd4059962900) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd463a7274f724c52f238157845d6f13') in 0.0183389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AboutUs.cs
+  artifactKey: Guid(7b7d1a34e182d477bba9608fe6a888cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AboutUs.cs using Guid(7b7d1a34e182d477bba9608fe6a888cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '200ec906eee77de96b7e632924d1f9e8') in 0.016788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/VoiceOverLine.cs
+  artifactKey: Guid(7145f56c280604c44a9966352e651b82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VoiceOverLine.cs using Guid(7145f56c280604c44a9966352e651b82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbcb099908ee972828958ee5067ade06') in 0.0170204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/AboutUsScene.unity
+  artifactKey: Guid(b8a9abe47f2fc184280d804cec043bb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/AboutUsScene.unity using Guid(b8a9abe47f2fc184280d804cec043bb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f34f27d71ba8d21ffabad22a66c8ec1') in 0.0176351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlaySubtitle.cs
+  artifactKey: Guid(0c18de56fe7f15b4bbe6763443eebad1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PlaySubtitle.cs using Guid(0c18de56fe7f15b4bbe6763443eebad1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35532583b48620ca1ab79825e688fbf4') in 0.015384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/ARPageController.cs
+  artifactKey: Guid(2af54227c3a364327a44bbc9eb683c44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ARPageController.cs using Guid(2af54227c3a364327a44bbc9eb683c44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e873c232f7d59111ce519bf546e47083') in 0.0170885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fba565cc07740fa80a70eb8fa8c06a5a') in 0.0828669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CaptionsManager.cs
+  artifactKey: Guid(53c1eabe031459d4093097ab8eae7b48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CaptionsManager.cs using Guid(53c1eabe031459d4093097ab8eae7b48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cb4d2b159300690fd5b5e8f28deb783') in 0.0152721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/menu_script.cs
+  artifactKey: Guid(bb7fa522180ae6845b22c9a9f28ec025) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/menu_script.cs using Guid(bb7fa522180ae6845b22c9a9f28ec025) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f53b05a4054f4e1770c5f983af673278') in 0.0158813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6e42068418088774eff7a0d51c8df23') in 0.0338669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84ecac1612861934f4ad3dedf226680a') in 0.0271763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TargetNarration.cs
+  artifactKey: Guid(c1b58ae22a18c4cae868b0b64e722022) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TargetNarration.cs using Guid(c1b58ae22a18c4cae868b0b64e722022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27025837bb7a270fa5d82931d112b286') in 0.016757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dcc70f0f68b5e7e6aa9d456dc227c70') in 0.0631075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

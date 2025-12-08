@@ -4,10 +4,12 @@ using UnityEngine.UI;
 public class SettingsManager : MonoBehaviour
 {
     public Toggle narrationToggle;
+    public Toggle captionsToggle;
     public Slider volumeSlider;
     public CanvasGroup volumeGroup;
 
     public static bool narrationEnabled = true;
+    public static bool captionsEnabled = true;
     public static float narrationVolume = 1f;
 
     void Awake()
@@ -19,6 +21,7 @@ public class SettingsManager : MonoBehaviour
     void Start()
     {
         narrationToggle.isOn = true;
+        // captionsToggle.isOn = true;
         volumeSlider.value = 1f;
 
         UpdateVolumeState(narrationToggle.isOn);
