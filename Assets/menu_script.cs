@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Vuforia;
 
 public class MenuManager : MonoBehaviour
 {
@@ -39,12 +40,11 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("AboutUsScene");
     }
 
-    public void GoToTutorialScene(){
-        SceneManager.LoadScene("AboutUsScene");
-    }
-
     public void GoToHomeScene(){
         SceneManager.LoadScene("MenuScene");
+    }
+    public void GoToTutorialScene(){
+        SceneManager.LoadScene("TutorialScene");
     }
     void Update()
     {

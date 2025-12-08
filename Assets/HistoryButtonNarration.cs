@@ -1,4 +1,5 @@
 using UnityEngine;
+using Vuforia;
 
 public class HistoryButtonNarration : MonoBehaviour
 {

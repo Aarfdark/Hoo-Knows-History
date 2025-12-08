@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Vuforia;
 
 public class ARPageController : MonoBehaviour
 {
     public GameObject ARUI;
     public GameObject SettingsUI;
+    public GameObject MapUI;
 
     public GameObject ARCamera;     // 👈 add this
     public GameObject VuforiaManager;
@@ -23,6 +25,7 @@ public class ARPageController : MonoBehaviour
     {
         ARUI.SetActive(false);
         SettingsUI.SetActive(true);
+        MapUI.SetActive(false);
 
         ARCamera.SetActive(false);
         VuforiaManager.SetActive(false);
@@ -31,6 +34,26 @@ public class ARPageController : MonoBehaviour
     public void CloseSettings()
     {
         SettingsUI.SetActive(false);
+        MapUI.SetActive(false);
+        ARUI.SetActive(true);
+
+        ARCamera.SetActive(true);
+        VuforiaManager.SetActive(true);
+    }
+
+    public void OpenMap()
+    {
+        ARUI.SetActive(false);
+        SettingsUI.SetActive(false);
+        MapUI.SetActive(true);
+
+        ARCamera.SetActive(false); 
+        VuforiaManager.SetActive(false);
+    }
+
+    public void CloseMap()
+    {
+        MapUI.SetActive(false);
         ARUI.SetActive(true);
 
         ARCamera.SetActive(true);
