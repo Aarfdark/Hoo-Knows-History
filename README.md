@@ -73,4 +73,6 @@ https://encyclopediavirginia.org/entries/foster-kitty-ca-1790-1863/
 
 https://uvamagazine.org/articles/serpentine_timeline
 
-https://www.youtube.com/watch?v=-Hr4-XNCf8Y&t=199s
+https://www.youtube.com/watch?v=-Hr4-XNCf8Y
+
+https://developer.vuforia.com/library/vuforia-engine/getting-started/development-environments/getting-started-vuforia-engine-unity/
