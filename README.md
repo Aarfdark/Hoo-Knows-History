@@ -8,5 +8,15 @@ To use the app build and deploy to compatible iOS device with camera access. Cli
 
 Sources used:
 ChatGPT
+
 Claude
+
 StackOverflow
+
+https://www.youtube.com/watch?v=7N637e3NuIE
+
+https://www.cvillepedia.org/Catherine_Foster
+
+https://encyclopediavirginia.org/entries/foster-kitty-ca-1790-1863/
+
+https://uvamagazine.org/articles/serpentine_timeline
