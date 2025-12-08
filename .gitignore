@@ -18,3 +18,4 @@ MemoryCaptures/
 
 # macOS system files
 .DS_Store
+*.log
