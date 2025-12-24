@@ -2,7 +2,7 @@ Hoo Knows History - Augmented Reality Tour App for UVA
   
   *Builds on iOS only
 
-Lauren Hruza (qdx4ej), Rythama Chevendra (geg8mq), Aadarsh Natarajan (aqd4pt), Kathleen O'Donovan (zsx4ey)
+Aadarsh Natarajan, Lauren Hruza, Rythama Chevendra, Kathleen O'Donovan
 
 NOTE: App can be fully simulated on Unity, but requires a Mac to run XCode for iPhone deployment
 
