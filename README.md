@@ -1,16 +1,17 @@
-Hoo Knows History - Augmented Reality Tour App for UVA
-  
+# Hoo Knows History - Augmented Reality Tour App for UVA
+Experience a short, Augmented Reality tour of UVA's Lawn! View a glimpse of the past and learn historical facts about the construction of the buildings around the Lawn and the surrounding areas.
+
   *Builds on iOS only
 
-Aadarsh Natarajan, Lauren Hruza, Rythama Chevendra, Kathleen O'Donovan
+**Team Members:** Aadarsh Natarajan, Lauren Hruza, Rythama Chevendra, Kathleen O'Donovan
 
-NOTE: App can be fully simulated on Unity, but requires a Mac to run XCode for iPhone deployment
+**NOTE:** App can be fully simulated on Unity, but requires a Mac to run XCode for iPhone deployment
 
-INSTRUCTIONS TO USE:
+# INSTRUCTIONS TO USE:
 
 To use the app build and deploy to compatible iOS device with camera access. Click "Start Tour" and that will bring up the camera with the AR system ready. Click the megaphone button to start the narration and follow the given instructions. Each tour stop will have a physical image to scan with the camera and display the corresponding artifact. Travel to each tour spot and learn!
 
-INSTRUCTIONS TO DEPLOY/BUILD:
+# INSTRUCTIONS TO DEPLOY/BUILD:
 
 - Under project directory, create a folder named Build
 
@@ -56,7 +57,7 @@ INSTRUCTIONS TO DEPLOY/BUILD:
 
 - Click Play button on top left of the screen
 
-SOURCES USED:
+# SOURCES USED:
 ChatGPT
 
 Claude
